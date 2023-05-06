@@ -1,0 +1,20 @@
+{
+  "players": [
+    {
+      "imagePath": "./images/characters/ash.jpg",
+      "name": "ash",
+      "id": "0000",
+      "class": "Fighter",
+      "level": "99",
+      "title": "Overthinker"
+    },
+    {
+      "imagePath": "./images/characters/ayo.jpg",
+      "name": "ayo",
+      "id": "0000",
+      "class": "Healer",
+      "level": "90",
+      "title": "Killer"
+    }
+  ]
+}
