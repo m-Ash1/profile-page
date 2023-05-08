@@ -1,7 +1,7 @@
 {
   "players": [
     {
-      "imagePath": "/src/assets/images/characters/ash.jpg",
+      "imagePath": "./assets/images/characters/ash.jpg",
       "name": "ash",
       "id": "0000",
       "characterClass": "Fighter",
@@ -9,7 +9,7 @@
       "title": "Overthinker"
     },
     {
-      "imagePath": "/src/assets/images/characters/ayo.jpg",
+      "imagePath": "./assets/images/characters/ayo.jpg",
       "name": "ayo",
       "id": "0000",
       "characterClass": "Healer",
