@@ -1,27 +1,27 @@
-import ashImage from "../assets/images/characters/ash.jpg";
+/* eslint-disable react/prop-types */
 
-const Card = () => {
+const Card = ({ info }) => {
   return (
     <div className="card">
       <div className="image">
-        <img src={ashImage} alt="ash" />
+        <img src={info.imagePath} alt={info.name} />
       </div>
       <div className="body">
         <div className="name">
-          ash <br /> #0000
+          {info.name} <br /> #{info.id}
         </div>
         <div className="attributes">
           <div className="attr">
             <div className="attrHead">Class</div>
-            <div className="attrDesc">Fighter</div>
+            <div className="attrDesc">{info.characterClass}</div>
           </div>
           <div className="attr">
             <div className="attrHead">Title</div>
-            <div className="attrDesc">Overthinker</div>
+            <div className="attrDesc">{info.title}</div>
           </div>
           <div className="attr">
             <div className="attrHead">Level</div>
-            <div className="attrDesc">90</div>
+            <div className="attrDesc">{info.level}</div>
           </div>
         </div>
         <div className="btn">Add Friend</div>
