@@ -5,7 +5,7 @@ import Card from "./components/Card";
 function App() {
   return (
     <>
-      <Card info={info.players[1]}></Card>
+      <Card info={info.players[0]}></Card>
     </>
   );
 }
